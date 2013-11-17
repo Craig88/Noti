@@ -1,7 +1,4 @@
 
-	
-
-
 // Craig Steele
 // July 2013
 
@@ -17,14 +14,12 @@ else {
   console.log("Notifications are not supported for this Browser/OS version yet.");
 }
 
-//$('#myButton').click(function() { doThis() });
 $('#myButton').click(getPermission);
 
 }
 
  function getPermission() {
   if (window.webkitNotifications.checkPermission() == 0) { // 0 is PERMISSION_ALLOWED
-    // function defined in step 2
     console.log("You have permission, go nuts!");
     displayNotification();
   } else {
