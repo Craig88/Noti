@@ -1,11 +1,10 @@
-Noti - Simple HTML5 Desktop Notification Example
+Noti - Simple HTML5 Desktop Notifications
 ===========
 
-This a simple example of using HTML5 Desktop Notifications
+A simple example using HTML5 Desktop Notifications
 
-###Author
-Craig Steele @Craig88
 
-###Demo
+###References
 Live demo - [cra.igsteele.com/noti](http://cra.igsteele.com/noti/)
-
+<br/>
+[The W3C Specification](http://www.w3.org/TR/notifications/)
